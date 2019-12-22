@@ -127,6 +127,20 @@ main .right ul {
   box-sizing: border-box;
   flex:1;
 }
+main .right ul li {
+  position:relative;
+  margin-left : 15px;
+}
+
+main .right ul li:before {
+content: '';
+background: url(check-24px.svg);
+width: 23px;
+height: 23px;
+background-size: cover;
+background-repeat; no-repeat;
+background-position: center center;
+}
 
 .features {
   display: flex;
