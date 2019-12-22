@@ -141,7 +141,6 @@ main .right ul li::before {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-color: red;
     position: absolute;
     left: -30px;
     top: 50%;
