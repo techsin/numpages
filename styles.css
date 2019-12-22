@@ -132,16 +132,21 @@ main .right ul li {
   margin-left : 15px;
 }
 
-main .right ul li:before {
-content: '';
-background: url(check-24px.svg);
-width: 23px;
-height: 23px;
-background-size: cover;
-background-repeat; no-repeat;
-background-position: center center;
+main .right ul li::before {
+    content: '';
+    background: url(check-24px.svg); 
+    width: 23px;
+    height: 23px;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: red;
+    position: absolute;
+    left: -30px;
+    top: 50%;
+    transform: translateY(-50%);
 }
-
 .features {
   display: flex;
   margin-bottom: 135px;
