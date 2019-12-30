@@ -11,9 +11,11 @@ header {
   background: #0A11D2;
   font-size: 14px;
   text-align: right;
+  display: flex;
+  align-items: center;
 }
 
-header a {
+header nav a {
   display: inline-block;
   color: #fff;
   text-decoration: none;
@@ -22,6 +24,20 @@ header a {
 
 header a:hover {
   text-decoration: underline;
+}
+
+header a.logo {
+  font-size: 33px;  
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  font-family: Montserrat;
+  margin: 0 20px
+}
+
+
+header nav {
+  margin-left: auto;
 }
 
 main, .features {
@@ -33,7 +49,7 @@ main {
   display: flex;
   margin-bottom: 132px;
   padding-bottom: 112px;
-  background: linear-gradient(to right, rgba(255,255,255,.9), rgba(255,255,255,.9)), url(laptop-and-coffee-3184464.png);
+  background: linear-gradient(to right, rgba(255,255,255,.9), rgba(255,255,255,.9)), url(https://images.pexels.com/photos/3427390/pexels-photo-3427390.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -55,16 +71,16 @@ main .right {
   align-items: flex-start;
 }
 
-main .left h1 {
+/* main .left h1 {
   color: #0A11D2;
   font-size: 33px;
   font-weight: 800;
   margin-bottom: 6px;
 }
-
+ */
 main .left h2 {
   color: #1E1E1E;
-  font-size: 18px;
+  font-size: 31px;
   margin-bottom: 10px;
 }
 
@@ -73,10 +89,6 @@ main .left p {
   margin-bottom: 102px;
 }
 
-
-main .left .buttons {
-  display: flex;
-}
 
 main .left .buttons  a {
   box-shadow: 0px 3px 6px #00000029;
